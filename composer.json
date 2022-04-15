@@ -1,0 +1,29 @@
+{
+  "name": "makeandship/acf-dmd",
+  "description": "DMD field types for ACF",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Make and Ship Limited",
+      "homepage": "https://www.makeandship.com/"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/makeandship/dmd-client-php.git"
+    }
+  ],
+  "require": {
+    "makeandship/dmd-client-php": "v1.1.0",
+    "composer/installers": "*",
+    "ruflin/elastica": "^7.1.3"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}
