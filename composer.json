@@ -10,12 +10,24 @@
   ],
   "repositories": [
     {
-      "type": "git",
-      "url": "https://bitbucket.org/makeandship/dmd-client-php.git"
+      "type": "package",
+      "package": {
+        "name": "specialistpharmacyservice/dmd-client-php",
+        "version": "v1.1.0",
+        "type": "library",
+        "source": {
+          "url": "https://github.com/SpecialistPharmacyService/dmd-client-php.git",
+          "type": "git",
+          "reference": "v1.1.0"
+        },
+        "require": {
+          "composer/installers": "^2.0"
+        }
+      }
     }
   ],
   "require": {
-    "makeandship/dmd-client-php": "v1.1.0",
+    "specialistpharmacyservice/dmd-client-php": "v1.1.0",
     "composer/installers": "*",
     "ruflin/elastica": "^7.1.3"
   },
