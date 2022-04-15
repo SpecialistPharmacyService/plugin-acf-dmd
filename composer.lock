@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a532d5e1895cdc6b74b09dcb3643ee36",
+    "content-hash": "4dec58b35002ffa48dec42f70a258490",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v2.0.1",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "a241e78aaeb09781f5f5b92ac01ffd13ab43e5e8"
+                "reference": "af93ba6e52236418f07a278033eba6959ee5b983"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/a241e78aaeb09781f5f5b92ac01ffd13ab43e5e8",
-                "reference": "a241e78aaeb09781f5f5b92ac01ffd13ab43e5e8",
+                "url": "https://api.github.com/repos/composer/installers/zipball/af93ba6e52236418f07a278033eba6959ee5b983",
+                "reference": "af93ba6e52236418f07a278033eba6959ee5b983",
                 "shasum": ""
             },
             "require": {
@@ -37,7 +37,8 @@
                 "class": "Composer\\Installers\\Plugin",
                 "branch-alias": {
                     "dev-main": "2.x-dev"
-                }
+                },
+                "plugin-modifies-install-path": true
             },
             "autoload": {
                 "psr-4": {
@@ -131,7 +132,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v2.0.1"
+                "source": "https://github.com/composer/installers/tree/v2.1.1"
             },
             "funding": [
                 {
@@ -147,7 +148,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-13T08:21:20+00:00"
+            "time": "2022-04-13T09:13:00+00:00"
         },
         {
             "name": "elasticsearch/elasticsearch",
@@ -325,44 +326,6 @@
                 "source": "https://github.com/ezimuel/ringphp/tree/1.2.0"
             },
             "time": "2021-11-16T11:51:30+00:00"
-        },
-        {
-            "name": "makeandship/dmd-client-php",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/makeandship/dmd-client-php.git",
-                "reference": "2cf41b943d6678504c6870ff8ab5b0465809bbe5"
-            },
-            "require": {
-                "composer/installers": "*",
-                "php": ">=7.0",
-                "ruflin/elastica": "^7"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "v1.0.5"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "makeandship\\": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Mark Thomsit",
-                    "email": "mark@makeandship.com",
-                    "homepage": "https://www.makeandship.com"
-                }
-            ],
-            "description": "PHP client for Make and Ship dm+d elasticsearch",
-            "keywords": [
-                "dm+d",
-                "elasticsearch"
-            ],
-            "time": "2022-03-15T19:06:27+00:00"
         },
         {
             "name": "nyholm/dsn",
@@ -553,16 +516,16 @@
         },
         {
             "name": "ruflin/elastica",
-            "version": "7.1.4",
+            "version": "7.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ruflin/Elastica.git",
-                "reference": "6594f0e4c27e3b1cc573ed6f83769d6d3b420cf3"
+                "reference": "72a4598544e3f99b5dd8cacb05d009ee75c2a701"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ruflin/Elastica/zipball/6594f0e4c27e3b1cc573ed6f83769d6d3b420cf3",
-                "reference": "6594f0e4c27e3b1cc573ed6f83769d6d3b420cf3",
+                "url": "https://api.github.com/repos/ruflin/Elastica/zipball/72a4598544e3f99b5dd8cacb05d009ee75c2a701",
+                "reference": "72a4598544e3f99b5dd8cacb05d009ee75c2a701",
                 "shasum": ""
             },
             "require": {
@@ -615,22 +578,35 @@
             ],
             "support": {
                 "issues": "https://github.com/ruflin/Elastica/issues",
-                "source": "https://github.com/ruflin/Elastica/tree/7.1.4"
+                "source": "https://github.com/ruflin/Elastica/tree/7.1.5"
             },
-            "time": "2022-02-14T07:19:04+00:00"
+            "time": "2022-03-29T15:37:28+00:00"
+        },
+        {
+            "name": "specialistpharmacyservice/dmd-client-php",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SpecialistPharmacyService/dmd-client-php.git",
+                "reference": "v1.1.0"
+            },
+            "require": {
+                "composer/installers": "^2.0"
+            },
+            "type": "library"
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "c726b64c1ccfe2896cb7df2e1331c357ad1c8ced"
+                "reference": "26954b3d62a6c5fd0ea8a2a00c0353a14978d05c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/c726b64c1ccfe2896cb7df2e1331c357ad1c8ced",
-                "reference": "c726b64c1ccfe2896cb7df2e1331c357ad1c8ced",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/26954b3d62a6c5fd0ea8a2a00c0353a14978d05c",
+                "reference": "26954b3d62a6c5fd0ea8a2a00c0353a14978d05c",
                 "shasum": ""
             },
             "require": {
@@ -668,7 +644,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.0.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.0.1"
             },
             "funding": [
                 {
@@ -684,7 +660,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-01T23:48:49+00:00"
+            "time": "2022-01-02T09:55:41+00:00"
         },
         {
             "name": "symfony/polyfill-php73",

@@ -4,7 +4,7 @@
 Plugin Name: Advanced Custom Fields: dm+d
 Plugin URI: https://bitbucket.org/makeandship/plugin-acf-dmd
 Description: Select a Medicine from Dictionary of Medicines and Devices
-Version: 1.2.12
+Version: 1.2.13
 Author: Make and Ship Limited
 Author URI: http://www.makeandship.com
  */
