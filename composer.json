@@ -8,28 +8,15 @@
       "homepage": "https://www.makeandship.com/"
     }
   ],
+  
   "repositories": [
     {
-      "type": "package",
-      "package": {
-        "name": "specialistpharmacyservice/dmd-client-php",
-        "version": "v1.1.0",
-        "type": "library",
-        "source": {
-          "url": "https://github.com/SpecialistPharmacyService/dmd-client-php.git",
-          "type": "git",
-          "reference": "v1.1.0"
-        },
-        "require": {
-          "composer/installers": "^2.0"
-        }
-      }
+      "type": "vcs",
+      "url": "https://github.com/specialistpharmacyservice/dmd-client-php.git"
     }
   ],
   "require": {
-    "specialistpharmacyservice/dmd-client-php": "v1.1.0",
-    "composer/installers": "*",
-    "ruflin/elastica": "^7.1.3"
+    "makeandship/dmd-client-php": "v1.1.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
